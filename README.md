@@ -1,4 +1,4 @@
 Facebook-Gradle
 ===============
 
-Facebook SDK prepared as Gradle Android Library
+Facebook SDK 3.15 prepared as Gradle Android Library
