@@ -16,11 +16,12 @@
 
 package com.facebook;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
+
 import com.facebook.android.R;
 
 /**
@@ -36,7 +37,7 @@ import com.facebook.android.R;
  * </pre>
  * Do not start this activity directly.
  */
-public class LoginActivity extends Activity {
+public class LoginActivity extends FragmentActivity {
     static final String RESULT_KEY = "com.facebook.LoginActivity:Result";
 
     private static final String TAG = LoginActivity.class.getName();
